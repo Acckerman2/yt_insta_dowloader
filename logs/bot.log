@@ -1,0 +1,122 @@
+2026-05-14 11:15:47 | INFO     | bot:on_startup:16 | Starting bot...
+2026-05-14 11:15:47 | INFO     | bot:connect:19 | Database connected
+2026-05-14 11:21:50 | INFO     | bot:on_startup:16 | Starting bot...
+2026-05-14 11:21:50 | INFO     | bot:connect:19 | Database connected
+2026-05-14 11:24:33 | INFO     | bot:on_startup:16 | Starting bot...
+2026-05-14 11:24:33 | INFO     | bot:connect:19 | Database connected
+2026-05-14 11:24:34 | INFO     | bot:on_startup:36 | Polling mode
+2026-05-14 11:25:29 | INFO     | bot:start_handler:19 | User 5557955876 started the bot
+2026-05-14 11:25:52 | INFO     | bot:handle_url:32 | Download request from 5557955876: youtube - https://youtu.be/uZGDO0L-Dr4?si=joORc-kXQCJ7Bkkc
+2026-05-14 11:25:53 | INFO     | bot:add_task:29 | Task fc75ccf1 queued for user 5557955876: https://youtu.be/uZGDO0L-Dr4?si=joORc-kXQCJ7Bkkc (queue: 1)
+2026-05-14 11:29:38 | DEBUG    | bot:delete_file:28 | Deleted temp file: downloads\uZGDO0L-Dr4.f251.webm
+2026-05-14 11:33:32 | INFO     | bot:on_shutdown:40 | Shutting down...
+2026-05-14 17:42:47 | INFO     | bot:on_startup:16 | Starting bot...
+2026-05-14 17:42:47 | INFO     | bot:connect:19 | Database connected
+2026-05-14 17:42:47 | INFO     | bot:on_startup:36 | Polling mode
+2026-05-14 17:45:31 | INFO     | bot:on_startup:16 | Starting bot...
+2026-05-14 17:45:31 | INFO     | bot:connect:19 | Database connected
+2026-05-14 17:45:32 | INFO     | bot:on_startup:36 | Polling mode
+2026-05-14 17:45:53 | INFO     | bot:handle_url:36 | Download request from 5557955876: youtube - https://youtu.be/uZGDO0L-Dr4?si=joORc-kXQCJ7Bkkc
+2026-05-14 17:47:19 | INFO     | bot:on_shutdown:40 | Shutting down...
+2026-05-14 17:47:54 | INFO     | bot:_migrate_schema:84 | Schema migration: ALTER TABLE users ADD COLUMN video_resolution TEXT DEFAULT '
+2026-05-14 17:47:54 | INFO     | bot:_migrate_schema:84 | Schema migration: ALTER TABLE users ADD COLUMN audio_bitrate TEXT DEFAULT '192
+2026-05-14 17:47:54 | INFO     | bot:_migrate_schema:84 | Schema migration: ALTER TABLE downloads ADD COLUMN file_id TEXT
+2026-05-14 17:47:54 | INFO     | bot:connect:19 | Database connected
+2026-05-14 17:48:05 | INFO     | bot:connect:19 | Database connected
+2026-05-14 17:48:13 | INFO     | bot:on_startup:16 | Starting bot...
+2026-05-14 17:48:13 | INFO     | bot:connect:19 | Database connected
+2026-05-14 17:48:14 | INFO     | bot:on_startup:36 | Polling mode
+2026-05-14 17:49:17 | INFO     | bot:on_startup:16 | Starting bot...
+2026-05-14 17:49:17 | INFO     | bot:connect:19 | Database connected
+2026-05-14 17:49:18 | INFO     | bot:on_startup:36 | Polling mode
+2026-05-14 17:49:29 | INFO     | bot:handle_url:36 | Download request from 5557955876: youtube - https://youtu.be/uZGDO0L-Dr4?si=joORc-kXQCJ7Bkkc
+2026-05-14 17:49:37 | INFO     | bot:add_task:29 | Task 00985615 queued for user 8534651168: https://youtu.be/uZGDO0L-Dr4?si=joORc-kXQCJ7Bkkc (queue: 1)
+2026-05-14 17:50:29 | INFO     | bot:upload_to_log_channel:97 | Cached file_id BQACAgUAAyEGAATgOWwP for ec03d9828a1360f1
+2026-05-14 17:50:30 | DEBUG    | bot:delete_file:181 | Deleted temp file: downloads\uZGDO0L-Dr4.f251.webm
+2026-05-14 17:51:12 | INFO     | bot:on_shutdown:40 | Shutting down...
+2026-05-14 17:56:26 | INFO     | bot:_migrate_schema:84 | Schema migration: ALTER TABLE users ADD COLUMN video_resolution TEXT DEFAULT '
+2026-05-14 17:56:26 | INFO     | bot:_migrate_schema:84 | Schema migration: ALTER TABLE users ADD COLUMN audio_bitrate TEXT DEFAULT '192
+2026-05-14 17:56:26 | INFO     | bot:_migrate_schema:84 | Schema migration: ALTER TABLE downloads ADD COLUMN file_id TEXT
+2026-05-14 17:56:26 | INFO     | bot:connect:19 | Database connected
+2026-05-14 17:56:28 | INFO     | bot:initialize:28 | Temp directory ready: C:\Users\Rahul\AppData\Local\Temp\tg-media-bot
+2026-05-14 17:57:00 | INFO     | bot:on_startup:17 | Starting bot...
+2026-05-14 17:57:00 | INFO     | bot:connect:19 | Database connected
+2026-05-14 17:57:00 | INFO     | bot:initialize:28 | Temp directory ready: C:\Users\Rahul\AppData\Local\Temp\tg-media-bot
+2026-05-14 17:57:01 | INFO     | bot:on_startup:38 | Polling mode
+2026-05-14 17:59:07 | INFO     | bot:handle_url:36 | Download request from 5557955876: instagram_reel - https://www.instagram.com/reel/DWI7tLBpBk1/?igsh=YTFnd2VvN2F
+2026-05-14 17:59:08 | INFO     | bot:add_task:29 | Task eb1ada4a queued for user 5557955876: https://www.instagram.com/reel/DWI7tLBpBk1/?igsh=YTFnd2VvN2F (queue: 1)
+2026-05-14 17:59:25 | INFO     | bot:upload_to_log_channel:103 | Cached file_id CQACAgUAAyEGAATgOWwP for 414b0583848a3a3f
+2026-05-14 17:59:26 | DEBUG    | bot:delete_file:187 | Deleted temp file: C:\Users\Rahul\AppData\Local\Temp\tg-media-bot\DWI7tLBpBk1.fdash-1256800142588730a.m4a
+2026-05-14 18:00:35 | INFO     | bot:on_shutdown:42 | Shutting down...
+2026-05-14 18:01:25 | INFO     | bot:on_startup:17 | Starting bot...
+2026-05-14 18:01:25 | INFO     | bot:connect:19 | Database connected
+2026-05-14 18:01:25 | INFO     | bot:initialize:28 | Temp directory ready: C:\Users\Rahul\AppData\Local\Temp\tg-media-bot
+2026-05-14 18:01:25 | INFO     | bot:on_startup:38 | Polling mode
+2026-05-14 18:01:29 | INFO     | bot:handle_url:36 | Download request from 5557955876: instagram_reel - https://www.instagram.com/reel/DWI7tLBpBk1/?igsh=YTFnd2VvN2F
+2026-05-14 18:01:45 | INFO     | bot:handle_url:36 | Download request from 5557955876: instagram_reel - https://www.instagram.com/reel/DYSXTf-P_0U/?igsh=MTlxY3ZsMW1
+2026-05-14 18:01:45 | INFO     | bot:add_task:29 | Task 48d75023 queued for user 5557955876: https://www.instagram.com/reel/DYSXTf-P_0U/?igsh=MTlxY3ZsMW1 (queue: 1)
+2026-05-14 18:01:53 | INFO     | bot:upload_to_log_channel:103 | Cached file_id BAACAgUAAyEGAATgOWwP for e5839c25426ea5fd
+2026-05-14 18:01:54 | DEBUG    | bot:delete_file:187 | Deleted temp file: C:\Users\Rahul\AppData\Local\Temp\tg-media-bot\DYSXTf-P_0U.fdash-4369466780034628v.mp4
+2026-05-14 18:02:31 | INFO     | bot:handle_url:36 | Download request from 5557955876: youtube - https://youtu.be/uZGDO0L-Dr4?si=joORc-kXQCJ7Bkkc
+2026-05-14 18:02:34 | INFO     | bot:add_task:29 | Task 6ad1ad21 queued for user 8534651168: https://youtu.be/uZGDO0L-Dr4?si=joORc-kXQCJ7Bkkc (queue: 1)
+2026-05-14 18:03:16 | INFO     | bot:upload_to_log_channel:103 | Cached file_id BQACAgUAAyEGAATgOWwP for ec03d9828a1360f1
+2026-05-14 18:03:17 | DEBUG    | bot:delete_file:187 | Deleted temp file: C:\Users\Rahul\AppData\Local\Temp\tg-media-bot\uZGDO0L-Dr4.f251.webm
+2026-05-14 18:05:33 | INFO     | bot:on_shutdown:42 | Shutting down...
+2026-05-14 18:05:37 | INFO     | bot:on_startup:17 | Starting bot...
+2026-05-14 18:05:37 | INFO     | bot:connect:19 | Database connected
+2026-05-14 18:05:37 | INFO     | bot:initialize:28 | Temp directory ready: C:\Users\Rahul\AppData\Local\Temp\tg-media-bot
+2026-05-14 18:05:37 | INFO     | bot:on_startup:38 | Polling mode
+2026-05-14 18:06:11 | INFO     | bot:handle_url:36 | Download request from 5557955876: youtube - https://youtu.be/uZGDO0L-Dr4?si=joORc-kXQCJ7Bkkc
+2026-05-14 18:06:42 | INFO     | bot:on_shutdown:42 | Shutting down...
+2026-05-14 18:08:20 | INFO     | bot:on_startup:17 | Starting bot...
+2026-05-14 18:08:20 | INFO     | bot:connect:19 | Database connected
+2026-05-14 18:08:20 | INFO     | bot:initialize:28 | Temp directory ready: C:\Users\Rahul\AppData\Local\Temp\tg-media-bot
+2026-05-14 18:08:21 | INFO     | bot:on_startup:38 | Polling mode
+2026-05-14 18:08:33 | INFO     | bot:handle_url:36 | Download request from 5557955876: instagram_reel - https://www.instagram.com/reel/DYR8UTdzZlx/?igsh=MTI5cTQyMm5
+2026-05-14 18:08:35 | INFO     | bot:add_task:29 | Task 1d32c6d5 queued for user 5557955876: https://www.instagram.com/reel/DYR8UTdzZlx/?igsh=MTI5cTQyMm5 (queue: 1)
+2026-05-14 18:08:58 | INFO     | bot:upload_to_log_channel:103 | Cached file_id BAACAgUAAyEGAATgOWwP for 6e5e2935cf34a36a
+2026-05-14 18:08:58 | DEBUG    | bot:delete_file:187 | Deleted temp file: C:\Users\Rahul\AppData\Local\Temp\tg-media-bot\DYR8UTdzZlx.mp4
+2026-05-14 18:09:07 | INFO     | bot:handle_url:36 | Download request from 5557955876: youtube - https://youtu.be/Hdxo8AxgFi0?si=4uqJJw0GAIv7FOzz
+2026-05-14 18:09:25 | INFO     | bot:handle_url:36 | Download request from 5557955876: youtube - https://youtu.be/Hdxo8AxgFi0?si=4uqJJw0GAIv7FOzz
+2026-05-14 18:09:30 | INFO     | bot:add_task:29 | Task 5464a1c4 queued for user 8534651168: https://youtu.be/Hdxo8AxgFi0?si=4uqJJw0GAIv7FOzz (queue: 1)
+2026-05-14 18:09:49 | INFO     | bot:upload_to_log_channel:103 | Cached file_id BQACAgUAAyEGAATgOWwP for b8d1edc81503f574
+2026-05-14 18:09:49 | DEBUG    | bot:delete_file:187 | Deleted temp file: C:\Users\Rahul\AppData\Local\Temp\tg-media-bot\Hdxo8AxgFi0.f251.webm
+2026-05-14 18:13:52 | INFO     | bot:on_startup:17 | Starting bot...
+2026-05-14 18:13:52 | INFO     | bot:connect:19 | Database connected
+2026-05-14 18:13:52 | INFO     | bot:initialize:28 | Temp directory ready: C:\Users\Rahul\AppData\Local\Temp\tg-media-bot
+2026-05-14 18:13:52 | INFO     | bot:on_startup:38 | Polling mode
+2026-05-14 18:23:44 | INFO     | bot:on_shutdown:42 | Shutting down...
+2026-05-14 18:23:55 | INFO     | bot:on_startup:17 | Starting bot...
+2026-05-14 18:23:55 | INFO     | bot:connect:19 | Database connected
+2026-05-14 18:23:55 | INFO     | bot:initialize:28 | Temp directory ready: C:\Users\Rahul\AppData\Local\Temp\tg-media-bot
+2026-05-14 18:23:56 | INFO     | bot:on_startup:38 | Polling mode
+2026-05-14 18:26:24 | INFO     | bot:handle_url:36 | Download request from 5557955876: instagram_reel - https://www.instagram.com/reel/DYUa-4wpWiV/?igsh=MTZheXZkNzV
+2026-05-14 18:26:25 | INFO     | bot:add_task:29 | Task c590ef3c queued for user 5557955876: https://www.instagram.com/reel/DYUa-4wpWiV/?igsh=MTZheXZkNzV (queue: 1)
+2026-05-14 18:26:58 | INFO     | bot:upload_to_log_channel:172 | Cached file_id BAACAgUAAyEGAATgOWwP for 62c50bf8b4b89067
+2026-05-14 18:26:59 | DEBUG    | bot:delete_file:191 | Deleted temp file: C:\Users\Rahul\AppData\Local\Temp\tg-media-bot\DYUa-4wpWiV.mp4
+2026-05-14 18:27:26 | INFO     | bot:handle_url:36 | Download request from 5557955876: youtube - https://youtu.be/utcvqJMR8gs?si=LhPMLmHBLw1Gf0tB
+2026-05-14 18:27:33 | INFO     | bot:add_task:29 | Task 98583039 queued for user 8534651168: https://youtu.be/utcvqJMR8gs?si=LhPMLmHBLw1Gf0tB (queue: 1)
+2026-05-14 18:28:00 | INFO     | bot:upload_to_log_channel:172 | Cached file_id BAACAgUAAyEGAATgOWwP for 6a45660c4aa8ed13
+2026-05-14 18:28:01 | DEBUG    | bot:delete_file:191 | Deleted temp file: C:\Users\Rahul\AppData\Local\Temp\tg-media-bot\utcvqJMR8gs.f398.mp4
+2026-05-14 18:28:46 | INFO     | bot:start_handler:19 | User 5557955876 started the bot
+2026-05-14 18:31:13 | INFO     | bot:handle_url:36 | Download request from 5557955876: instagram_story - https://www.instagram.com/stories/__karthick_sk/389683981978
+2026-05-14 18:31:13 | INFO     | bot:add_task:29 | Task aa985d03 queued for user 5557955876: https://www.instagram.com/stories/__karthick_sk/389683981978 (queue: 1)
+2026-05-14 18:31:18 | ERROR    | bot:_execute_task:92 | All 3 attempts failed for https://www.instagram.com/stories/__karthick_sk/389683981978
+2026-05-14 18:31:38 | INFO     | bot:handle_url:36 | Download request from 5557955876: instagram_reel - https://www.instagram.com/reel/DYRS8aNvyj5/?igsh=bGU3eHNueTV
+2026-05-14 18:31:38 | INFO     | bot:add_task:29 | Task 81ca9cb4 queued for user 5557955876: https://www.instagram.com/reel/DYRS8aNvyj5/?igsh=bGU3eHNueTV (queue: 1)
+2026-05-14 18:31:42 | INFO     | bot:upload_to_log_channel:172 | Cached file_id BAACAgUAAyEGAATgOWwP for 56f3b38c0c9bfe4e
+2026-05-14 18:31:43 | DEBUG    | bot:delete_file:191 | Deleted temp file: C:\Users\Rahul\AppData\Local\Temp\tg-media-bot\DYRS8aNvyj5.mp4
+2026-05-14 18:32:14 | INFO     | bot:handle_url:36 | Download request from 5557955876: youtube - https://youtu.be/8dJYYX2sfRw?si=jWWHyKZPtHH1m8eW
+2026-05-14 18:32:37 | INFO     | bot:handle_url:36 | Download request from 5557955876: youtube - https://youtu.be/8dJYYX2sfRw?si=jWWHyKZPtHH1m8eW
+2026-05-14 18:32:50 | INFO     | bot:on_shutdown:42 | Shutting down...
+2026-05-14 18:46:58 | INFO     | bot:on_startup:17 | Starting bot...
+2026-05-14 18:46:58 | INFO     | bot:connect:19 | Database connected
+2026-05-14 18:46:58 | INFO     | bot:initialize:28 | Temp directory ready: C:\Users\Rahul\AppData\Local\Temp\tg-media-bot
+2026-05-14 18:46:58 | INFO     | bot:on_startup:38 | Polling mode
+2026-05-14 18:47:21 | INFO     | bot:handle_url:38 | Download request from 5557955876: youtube - https://youtu.be/GONyd0CUrPc?si=yeCIcmKsiHnlhE74
+2026-05-14 18:47:26 | INFO     | bot:add_task:34 | Task e234a055 queued for user 5557955876: https://youtu.be/GONyd0CUrPc?si=yeCIcmKsiHnlhE74 (queue: 1)
+2026-05-14 18:48:07 | INFO     | bot:upload_to_log_channel:172 | Cached file_id BAACAgUAAyEGAATgOWwP for 7a9fbbe0fd95caa2
+2026-05-14 18:48:07 | DEBUG    | bot:delete_file:191 | Deleted temp file: C:\Users\Rahul\AppData\Local\Temp\tg-media-bot\GONyd0CUrPc.f397.mp4
+2026-05-14 18:48:32 | INFO     | bot:handle_url:38 | Download request from 5557955876: youtube - https://youtu.be/kshFl9VsYJI?si=Yw1XWITFTuXcut_S
+2026-05-14 18:48:40 | INFO     | bot:add_task:34 | Task 94a78647 queued for user 5557955876: https://youtu.be/kshFl9VsYJI?si=Yw1XWITFTuXcut_S (queue: 1)
+2026-05-14 18:48:57 | ERROR    | bot:_execute_task:131 | All 3 attempts failed for https://youtu.be/kshFl9VsYJI?si=Yw1XWITFTuXcut_S

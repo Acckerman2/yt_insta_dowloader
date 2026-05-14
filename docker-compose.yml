@@ -1,0 +1,39 @@
+version: "3.9"
+
+services:
+  bot:
+    build: .
+    container_name: tg-media-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./downloads:/app/downloads
+      - ./logs:/app/logs
+      - ./cookies.txt:/app/cookies.txt:ro
+    environment:
+      - TZ=UTC
+    stop_grace_period: 30s
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+        reservations:
+          memory: 256M
+
+  redis:
+    image: redis:7-alpine
+    container_name: tg-media-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+
+volumes:
+  redis-data:
