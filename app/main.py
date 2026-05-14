@@ -62,6 +62,19 @@ async def main():
             server = uvicorn.Server(config)
             await server.serve()
         else:
+            from fastapi import FastAPI
+            health_app = FastAPI()
+            @health_app.get("/")
+            async def health():
+                return {"status": "ok"}
+            config = uvicorn.Config(
+                health_app,
+                host="0.0.0.0",
+                port=cfg.webhook_port,
+                log_level="error",
+            )
+            server = uvicorn.Server(config)
+            asyncio.create_task(server.serve())
             await dp.start_polling(
                 bot,
                 allowed_updates=dp.resolve_used_update_types(),
