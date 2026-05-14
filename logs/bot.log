@@ -120,3 +120,11 @@
 2026-05-14 18:48:32 | INFO     | bot:handle_url:38 | Download request from 5557955876: youtube - https://youtu.be/kshFl9VsYJI?si=Yw1XWITFTuXcut_S
 2026-05-14 18:48:40 | INFO     | bot:add_task:34 | Task 94a78647 queued for user 5557955876: https://youtu.be/kshFl9VsYJI?si=Yw1XWITFTuXcut_S (queue: 1)
 2026-05-14 18:48:57 | ERROR    | bot:_execute_task:131 | All 3 attempts failed for https://youtu.be/kshFl9VsYJI?si=Yw1XWITFTuXcut_S
+2026-05-14 19:02:49 | INFO     | bot:on_startup:17 | Starting bot...
+2026-05-14 19:02:49 | INFO     | bot:connect:19 | Database connected
+2026-05-14 19:02:49 | INFO     | bot:initialize:28 | Temp directory ready: C:\Users\Rahul\AppData\Local\Temp\tg-media-bot
+2026-05-14 19:02:50 | INFO     | bot:on_startup:38 | Polling mode
+2026-05-14 19:03:13 | INFO     | bot:handle_url:38 | Download request from 5557955876: youtube - https://youtu.be/wFNrWfPsRyc?si=FbT7mZakfFQiWBl1
+2026-05-14 19:03:20 | INFO     | bot:add_task:34 | Task 58b680c6 queued for user 5557955876: https://youtu.be/wFNrWfPsRyc?si=FbT7mZakfFQiWBl1 (queue: 1)
+2026-05-14 19:04:02 | INFO     | bot:upload_to_log_channel:170 | Cached file_id CQACAgUAAyEGAATgOWwP for dabe44af063c295a
+2026-05-14 19:04:02 | DEBUG    | bot:delete_file:189 | Deleted temp file: C:\Users\Rahul\AppData\Local\Temp\tg-media-bot\wFNrWfPsRyc.mp3
