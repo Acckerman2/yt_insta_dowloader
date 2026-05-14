@@ -128,3 +128,4 @@
 2026-05-14 19:03:20 | INFO     | bot:add_task:34 | Task 58b680c6 queued for user 5557955876: https://youtu.be/wFNrWfPsRyc?si=FbT7mZakfFQiWBl1 (queue: 1)
 2026-05-14 19:04:02 | INFO     | bot:upload_to_log_channel:170 | Cached file_id CQACAgUAAyEGAATgOWwP for dabe44af063c295a
 2026-05-14 19:04:02 | DEBUG    | bot:delete_file:189 | Deleted temp file: C:\Users\Rahul\AppData\Local\Temp\tg-media-bot\wFNrWfPsRyc.mp3
+2026-05-14 19:11:00 | INFO     | bot:on_shutdown:42 | Shutting down...
